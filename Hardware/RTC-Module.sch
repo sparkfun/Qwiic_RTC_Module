@@ -22473,12 +22473,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
 <text x="166.624" y="11.43" size="2.54" layer="94">A. England</text>
-<text x="153.162" y="141.224" size="1.778" layer="97">Clear jumper to disable I2C pullups</text>
-<text x="99.06" y="139.7" size="1.27" layer="94" font="vector">Clear jumper to disable
+<text x="153.162" y="141.224" size="1.27" layer="97" font="vector">Clear jumper to disable I2C pullups</text>
+<text x="99.06" y="139.7" size="1.27" layer="97" font="vector">Clear jumper to disable
 pullups for 32KHZ signal
 and the Interrupt/1HZ 
 square wave</text>
-<text x="111.76" y="96.52" size="2.032" layer="95" font="vector" ratio="15">Address: 0xD0</text>
+<text x="111.76" y="96.52" size="2.032" layer="97" font="vector">Address: 0xD0</text>
 <wire x1="0" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="97" style="longdash"/>
 <text x="40.64" y="43.18" size="2.032" layer="97" font="vector" ratio="15">Qwiic Headers</text>
 <text x="116.84" y="154.94" size="2.032" layer="97" font="vector" ratio="15">RTC Module</text>
