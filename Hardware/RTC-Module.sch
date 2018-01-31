@@ -305,9 +305,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="70MF-SUPERCAP" prefix="C">
-<description>&lt;h3&gt;ELNA DSK-414 - 70mF Electric Double Layer Capacitor (EDLC/SuperCapacitor)&lt;/h3&gt;
-&lt;p&gt;A 70 mF SuperCapacitor. Used for backup power on devices with low standby current&lt;/p&gt;
+<deviceset name="220MF-SUPERCAP" prefix="C">
+<description>&lt;h3&gt;ELNA DSK-414 - 220mF Electric Double Layer Capacitor (EDLC/SuperCapacitor)&lt;/h3&gt;
+&lt;p&gt;A 220 mF SuperCapacitor. Used for backup power on devices with low standby current&lt;/p&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
@@ -7432,7 +7432,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="70MF-SUPERCAP" device=""/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="220MF-SUPERCAP" device=""/>
 <part name="U$3" library="SparkX" deviceset="SPARKX-LOGO" device="2"/>
 <part name="U$5" library="SparkX" deviceset="SPARKX-LOGO" device="4"/>
 <part name="U2" library="SparkFun-Clocks" deviceset="RV-1805" device=""/>
