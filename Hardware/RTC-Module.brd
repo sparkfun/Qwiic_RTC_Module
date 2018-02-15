@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -169,9 +169,7 @@
 <dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-3.81" y3="11.43" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="26.67" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="30.48" textsize="1.016" textratio="15" layer="47" unit="inch"/>
-<text x="0.381" y="2.413" size="0.8128" layer="21" font="vector" ratio="15">Qwiic
-RTC
-Module</text>
+<text x="9.652" y="19.431" size="0.8128" layer="21" font="vector" ratio="15">Qwiic RTC</text>
 <text x="12.573" y="6.35" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="center">Qwiic RTC Module</text>
 <text x="10.16" y="2.413" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SDA</text>
 <text x="12.7" y="2.413" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SCL</text>
@@ -2193,10 +2191,4 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </errors>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
