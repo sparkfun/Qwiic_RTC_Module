@@ -1855,8 +1855,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="10nF" x="8.255" y="11.43" rot="R180">
 <attribute name="PROD_ID" value="CAP-00867" x="8.255" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0603" value="1K" x="2.54" y="17.145">
-<attribute name="PROD_ID" value="RES-11227" x="2.54" y="17.145" size="1.778" layer="27" display="off"/>
+<element name="R6" library="SparkFun-Resistors" package="0603" value="1k" x="2.54" y="17.145">
+<attribute name="PROD_ID" value="RES-07856" x="2.54" y="17.145" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="22.86" y="19.05">
 <attribute name="PROD_ID" value="RES-00824" x="22.86" y="19.05" size="1.778" layer="27" display="off"/>
