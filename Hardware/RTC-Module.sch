@@ -19815,7 +19815,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v02</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="170.18" y="11.43" size="2.54" layer="94">A. England</text>
 <wire x1="0" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="97" style="longdash"/>
 <wire x1="106.68" y1="63.5" x2="147.32" y2="63.5" width="0.1524" layer="97" style="longdash"/>

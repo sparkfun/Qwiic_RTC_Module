@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -163,7 +163,7 @@
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <text x="12.7" y="7.366" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I2C</text>
-<text x="24.892" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v02</text>
+<text x="24.892" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="17.78" y="-8.89" size="1.778" layer="51">Andy England</text>
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-7.62" y3="12.7" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-3.81" y3="11.43" textsize="1.016" textratio="15" layer="47" unit="inch"/>
@@ -185,8 +185,10 @@
 <text x="15.24" y="2.413" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">PSW</text>
 <text x="17.78" y="2.413" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!INT</text>
 <text x="20.32" y="2.413" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!RST</text>
-<text x="1.778" y="16.383" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">B</text>
-<text x="3.81" y="16.256" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">C</text>
+<text x="1.905" y="14.478" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">BAT</text>
+<text x="3.937" y="14.478" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">CAP</text>
+<text x="3.556" y="16.256" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">PWR</text>
+<text x="12.7" y="34.29" size="1.016" layer="47" font="vector" align="center">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1904,7 +1906,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="BT1" pad="GND"/>
 <via x="7.239" y="10.16" extent="1-16" drill="0.381"/>
 <via x="5.588" y="16.383" extent="1-16" drill="0.381"/>
-<via x="3.683" y="13.843" extent="1-16" drill="0.381"/>
+<via x="1.905" y="11.811" extent="1-16" drill="0.381"/>
 <via x="9.779" y="10.16" extent="1-16" drill="0.381"/>
 <via x="14.986" y="11.557" extent="1-16" drill="0.381"/>
 <via x="16.51" y="10.16" extent="1-16" drill="0.381"/>
@@ -2152,12 +2154,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R6" pad="1"/>
 <wire x1="1.69" y1="17.145" x2="2.413" y2="17.145" width="0.2032" layer="1"/>
 <wire x1="2.413" y1="17.145" x2="2.54" y2="17.018" width="0.2032" layer="1"/>
+<via x="2.54" y="13.97" extent="1-16" drill="0.381"/>
+<wire x1="2.54" y1="13.97" x2="2.54" y2="15.24" width="0.2032" layer="16"/>
 <wire x1="2.54" y1="17.018" x2="2.54" y2="16.51" width="0.2032" layer="1"/>
-<wire x1="2.54" y1="16.51" x2="2.794" y2="16.256" width="0.2032" layer="1"/>
-<via x="2.54" y="13.462" extent="1-16" drill="0.381"/>
-<wire x1="2.54" y1="13.462" x2="2.54" y2="15.24" width="0.2032" layer="16"/>
-<wire x1="2.794" y1="16.256" x2="2.794" y2="13.716" width="0.2032" layer="1"/>
-<wire x1="2.794" y1="13.716" x2="2.54" y2="13.462" width="0.2032" layer="1"/>
+<wire x1="2.54" y1="16.51" x2="2.921" y2="16.129" width="0.2032" layer="1"/>
+<wire x1="2.921" y1="16.129" x2="2.921" y2="14.351" width="0.2032" layer="1"/>
+<wire x1="2.921" y1="14.351" x2="2.54" y2="13.97" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C1" pad="+"/>
@@ -2183,11 +2185,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,508d1d1f219d09b3"/>
 <approved hash="19,16,a40bae29ae79a45b"/>
 <approved hash="19,16,1cb3708d47fe4e7c"/>
+<approved hash="19,1,607a3fe73da57ce8"/>
+<approved hash="19,1,ae73057fa677eee8"/>
+<approved hash="19,1,21df6bfd68452267"/>
+<approved hash="19,1,239fa82241b82996"/>
+<approved hash="19,1,bd8eda1a85235b1b"/>
 <approved hash="19,16,6d92c69f0e6846f6"/>
 <approved hash="19,16,21df6bfd68452267"/>
+<approved hash="19,16,78d3e99410603894"/>
 <approved hash="19,16,d0615bddd9b8b197"/>
 <approved hash="19,16,7f983c1b3c8961da"/>
-<approved hash="19,16,78d3e99410603894"/>
 </errors>
 </board>
 </drawing>
