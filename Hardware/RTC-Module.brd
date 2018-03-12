@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -164,7 +164,7 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <text x="12.7" y="7.366" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I2C</text>
 <text x="24.892" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
-<text x="17.78" y="-8.89" size="1.778" layer="51">Andy England</text>
+<text x="17.78" y="-8.89" size="1.778" layer="51" font="vector">Andy England</text>
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-7.62" y3="12.7" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-3.81" y3="11.43" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="26.67" textsize="1.016" textratio="15" layer="47" unit="inch"/>
@@ -1584,20 +1584,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Batteries">
-<description>&lt;h3&gt;SparkFun Batteries&lt;/h3&gt;
-This library contains battery clips, connectors, and appropriately sized silk outlines for LiPo batteries. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="Andy">
 <packages>
 <package name="BATTCON_12MM_PTH">
 <description>&lt;h3&gt;12mm Coin Cell Battery (CR1225) Holder - PTH&lt;/h3&gt;
@@ -1615,12 +1602,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-3.175" y1="5.588" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="102.56384"/>
 <wire x1="-6.35" y1="4.064" x2="-3.175" y2="5.588" width="0.2032" layer="21" curve="-123.398919"/>
 <wire x1="6.35" y1="4.064" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="128.77667"/>
-<pad name="VCC@2" x="-6.604" y="0" drill="1.8542" shape="square"/>
-<pad name="VCC@1" x="6.604" y="0" drill="1.8542" shape="square"/>
+<pad name="VCC@2" x="-6.604" y="0" drill="1.8542" shape="square" stop="no"/>
+<pad name="VCC@1" x="6.604" y="0" drill="1.8542" shape="square" stop="no"/>
 <smd name="GND" x="0" y="0" dx="9" dy="9" layer="1" roundness="100" cream="no"/>
 <circle x="0" y="0" radius="1" width="2" layer="31"/>
 <text x="0" y="-6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
+<rectangle x1="5.11175" y1="-1.49225" x2="8.09625" y2="1.49225" layer="29" rot="R180"/>
+<rectangle x1="-8.09625" y1="-1.49225" x2="-5.11175" y2="1.49225" layer="29" rot="R180"/>
 </package>
 </packages>
 </library>
@@ -1869,7 +1858,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" value="10k" x="22.86" y="17.145" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="20.32" y="1.27" rot="R180"/>
-<element name="BT1" library="SparkFun-Batteries" package="BATTCON_12MM_PTH" value="" x="12.7" y="19.177" rot="MR0">
+<element name="BT1" library="Andy" package="BATTCON_12MM_PTH" value="" x="12.7" y="19.177" rot="MR0">
 <attribute name="SF_SKU" value="PRT-07948" x="12.7" y="19.177" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PROD_ID" value="BATT-08315" x="12.7" y="19.177" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>

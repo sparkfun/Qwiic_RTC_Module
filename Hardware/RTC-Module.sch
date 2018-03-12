@@ -18957,21 +18957,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Batteries">
-<description>&lt;h3&gt;SparkFun Batteries&lt;/h3&gt;
-This library contains battery clips, connectors, and appropriately sized silk outlines for LiPo batteries. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="Andy">
 <packages>
+<package name="BATTCON_12MM_PTH">
+<description>&lt;h3&gt;12mm Coin Cell Battery (CR1225) Holder - PTH&lt;/h3&gt;
+&lt;p&gt;This is a through hole 12mm coin cell battery holder. Holds battery in place with friction. Metal housing is +, PCB pad underneath is -.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/KEY-3001.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;BATTERY&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="-6.35" y1="-3.81" x2="-3.81" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-6.35" x2="3.81" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-6.35" x2="6.35" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="5.588" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="102.56384"/>
+<wire x1="-6.35" y1="4.064" x2="-3.175" y2="5.588" width="0.2032" layer="21" curve="-123.398919"/>
+<wire x1="6.35" y1="4.064" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="128.77667"/>
+<pad name="VCC@2" x="-6.604" y="0" drill="1.8542" shape="square" stop="no"/>
+<pad name="VCC@1" x="6.604" y="0" drill="1.8542" shape="square" stop="no"/>
+<smd name="GND" x="0" y="0" dx="9" dy="9" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="1" width="2" layer="31"/>
+<text x="0" y="-6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
+<rectangle x1="5.11175" y1="-1.49225" x2="8.09625" y2="1.49225" layer="29" rot="R180"/>
+<rectangle x1="-8.09625" y1="-1.49225" x2="-5.11175" y2="1.49225" layer="29" rot="R180"/>
+</package>
 <package name="BATTERY-AAA">
 <description>&lt;h3&gt;AAA Battery Clips&lt;/h3&gt;
 &lt;p&gt;PCB mount clips properly spaced to hold a AAA battery.&lt;/p&gt;
@@ -19031,29 +19043,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="12.7" y="-1.27" size="2.54" layer="21" ratio="12">-</text>
 <text x="-27.305" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-21.971" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="BATTCON_12MM_PTH">
-<description>&lt;h3&gt;12mm Coin Cell Battery (CR1225) Holder - PTH&lt;/h3&gt;
-&lt;p&gt;This is a through hole 12mm coin cell battery holder. Holds battery in place with friction. Metal housing is +, PCB pad underneath is -.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/KEY-3001.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;BATTERY&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="-6.35" y1="-3.81" x2="-3.81" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-6.35" x2="3.81" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-6.35" x2="6.35" y2="-3.81" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-3.81" x2="6.35" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="4.064" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="2.54" x2="6.35" y2="4.064" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="5.588" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="102.56384"/>
-<wire x1="-6.35" y1="4.064" x2="-3.175" y2="5.588" width="0.2032" layer="21" curve="-123.398919"/>
-<wire x1="6.35" y1="4.064" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="128.77667"/>
-<pad name="VCC@2" x="-6.604" y="0" drill="1.8542" shape="square"/>
-<pad name="VCC@1" x="6.604" y="0" drill="1.8542" shape="square"/>
-<smd name="GND" x="0" y="0" dx="9" dy="9" layer="1" roundness="100" cream="no"/>
-<circle x="0" y="0" radius="1" width="2" layer="31"/>
-<text x="0" y="-6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
 </package>
 <package name="BATTCON_20MM">
 <description>&lt;h3&gt;20mm Coin Cell Battery (CR2032) Holder - SMD (Single Pad)&lt;/h3&gt;
@@ -19805,7 +19794,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="1X03_NO_SILK"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-12MM_PTH"/>
+<part name="BT1" library="Andy" deviceset="BATTERY" device="-12MM_PTH"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK"/>
@@ -19815,8 +19804,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
-<text x="170.18" y="11.43" size="2.54" layer="94">A. England</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="170.18" y="11.43" size="2.54" layer="94" font="vector">A. England</text>
 <wire x1="0" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="97" style="longdash"/>
 <wire x1="106.68" y1="63.5" x2="147.32" y2="63.5" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="97" style="longdash"/>
@@ -19824,18 +19813,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="25.4" y="147.32" size="2.54" layer="97" font="vector">SuperCapacitor Power Backup</text>
 <text x="127" y="149.86" size="2.54" layer="97" font="vector">RTC Module</text>
 <text x="38.1" y="48.26" size="2.54" layer="97" font="vector">Qwiic Connectors/ I2C Interface</text>
-<text x="15.24" y="106.68" size="1.778" layer="97">Cut trace on jumper JP1 
+<text x="15.24" y="106.68" size="1.778" layer="97" font="vector">Cut trace on jumper JP1 
 to disconnect SuperCapacitor.
 Add solder to other side of 
 jumper to connect optional
 battery</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="63.5" width="0.1524" layer="97" style="longdash"/>
-<text x="127" y="147.32" size="1.778" layer="97">Operating voltage: 1.5-3.6 V</text>
-<text x="193.04" y="142.24" size="1.778" layer="97">Disconnect I2C pullup 
+<text x="127" y="147.32" size="1.778" layer="97" font="vector">Operating voltage: 1.5-3.6 V</text>
+<text x="193.04" y="142.24" size="1.778" layer="97" font="vector">Disconnect I2C pullup 
 jumper if you already 
 have pullup resistors 
 on your I2C bus</text>
-<text x="127" y="144.78" size="1.778" layer="97">I2C Address: 0xD2</text>
+<text x="127" y="144.78" size="1.778" layer="97" font="vector">I2C Address: 0xD2</text>
+<text x="76.2" y="83.82" size="1.778" layer="97" font="vector">Optional Battery: 
+PRT-07948</text>
 </plain>
 <instances>
 <instance part="U$6" gate="G$1" x="238.76" y="27.94"/>
@@ -19969,10 +19960,10 @@ on your I2C bus</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="91.44" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="198.12" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="198.12" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="127" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
@@ -19995,10 +19986,10 @@ on your I2C bus</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="91.44" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="33.02" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="198.12" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="198.12" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
@@ -20061,7 +20052,7 @@ on your I2C bus</text>
 <net name="!INT" class="0">
 <segment>
 <wire x1="177.8" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-<label x="226.06" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="226.06" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="116.84" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
@@ -20143,7 +20134,7 @@ on your I2C bus</text>
 </segment>
 <segment>
 <wire x1="116.84" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<label x="119.38" y="35.56" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J4" gate="J$1" pin="3"/>
 </segment>
 </net>
