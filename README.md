@@ -1,19 +1,16 @@
-DS1307 RTC Module
+Qwiic RV-1805 RTC Module
 ==================
 
-[![Real Time Clock Module](https://cdn.sparkfun.com//assets/parts/9/4/5/4/12708-01.jpg)  
-*DS1307 Real Time Clock Module (BOB-12708)*](https://www.sparkfun.com/products/12708)
+[![Real Time Clock Module](https://cdn.sparkfun.com/r/500-500/assets/parts/1/2/6/9/1/14558-SparkFun_Real_Time_Clock_Module_-_RV-1805__Qwiic_-01.jpg) 
+*Qwiic RV-1805 RTC Module (BOB-14558)*](https://www.sparkfun.com/products/14558)
 
-The Real Time Clock (RTC) module uses the DS1307 to keep track of the current year, month, day as well as the current time.
+The Real Time Clock (RTC) module uses the RV-1805 to keep track of the current year, month, day as well as the current time. The I2C bus has Qwiic connectors so you won't have to do any soldering to keep track of time.
 
 Repository Contents
 -------------------
-* **/Hardware** - All Eagle design files (.brd, .sch). These go way back in time (before github was around) so be sure to dig back to the original commit to see the early versions of the Eagle files.
+* **/Documents** - Datasheets. 
+* **/Hardware** - All Eagle design files (.brd, .sch). 
 * **/Production** - Various test jigs and large panel layouts used for production.
-
-Version History
----------------
-* [v1.3](https://www.sparkfun.com/products/retired/99) Version 1.3
 
 License Information
 -------------------
