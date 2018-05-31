@@ -1,11 +1,11 @@
 Qwiic Real Time Clock Module (RV-1805) Module
 ==================
 
-[![Real Time Clock Module](https://cdn.sparkfun.com/r/500-500/assets/parts/1/2/6/9/1/14558-SparkFun_Real_Time_Clock_Module_-_RV-1805__Qwiic_-01.jpg)
+![Real Time Clock Module](https://cdn.sparkfun.com/r/500-500/assets/parts/1/2/6/9/1/14558-SparkFun_Real_Time_Clock_Module_-_RV-1805__Qwiic_-01.jpg)
 
-*Qwiic RV-1805 RTC Module (BOB-14558)*](https://www.sparkfun.com/products/14558)
+[*Qwiic RV-1805 RTC Module (BOB-14558)*](https://www.sparkfun.com/products/14558)
 
-The Real Time Clock (RTC) module uses the RV-1805 to keep track of the current year, month, day as well as the current time. The I2C bus has Qwiic connectors so you won't have to do any soldering to keep track of time.
+The Real Time Clock (RTC) module uses the RV-1805 to keep track of the current year, month, day as well as the current time.
 
 Repository Contents
 -------------------
@@ -21,7 +21,7 @@ Documentation
 Product Versions
 ----------------
 * [BOB-14558](https://www.sparkfun.com/products/14558) - SparkFun red version
-* [SPX-14642] (https://www.sparkfun.com/products/14642) - SparkX version
+* [SPX-14642](https://www.sparkfun.com/products/14642) - SparkX version
 
 License Information
 -------------------
