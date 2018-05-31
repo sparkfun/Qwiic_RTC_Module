@@ -5,7 +5,7 @@ Qwiic Real Time Clock Module (RV-1805) Module
 
 [*Qwiic RV-1805 RTC Module (BOB-14558)*](https://www.sparkfun.com/products/14558)
 
-The Real Time Clock (RTC) module uses the RV-1805 to keep track of the current year, month, day as well as the current time.
+Get with the times, already! This SparkFun Real Time Clock (RTC) Module is a Qwiic-enabled breakout board for the RV-1805 chipset. The RTC is ultra-low power (running at only about 22nA in its lowest power setting) so it can use a supercapacitor for backup power instead of a normal battery. This means you get plenty of charge and discharge cycles without any degradation to the “battery.“ To make it even easier to get your readings, all communication is enacted exclusively via I2C, utilizing our handy Qwiic system so no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1”-spaced pins in case you prefer to use a breadboard.
 
 Repository Contents
 -------------------
